@@ -1,0 +1,2 @@
+* Responses is a golang helper library for http server related things.
+
