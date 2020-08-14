@@ -33,11 +33,5 @@ func Write(w http.ResponseWriter, data interface{}) error {
 
 }
 
-func BadStatusOnError(err error, errText string) {
-	if err != nil {
-		return
-	}
-	if errText == "" {
-		http.Error()
-	}
-}
+
+
